@@ -5,6 +5,9 @@
 # functions = "functions"
 publish = "assets"
 
+[build.processing]
+skip_processing = false
+
 [build.processing.images]
 compress = true
 
