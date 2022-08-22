@@ -53,7 +53,7 @@ async function main() {
       if (
         // fix conflicts in names like ho-oh becomes [id]-oh because it thinks ho is a form
         form === "Oh" ||
-        form === "Mime" ||
+        form.includes("Mime") || // use includes for mr mime galar
         form === "Null" ||
         form === "Jr." ||
         form === "Rime" ||
